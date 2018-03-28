@@ -266,10 +266,6 @@ UIScrollView = ObjCClass('UIScrollView')
 UISlider = ObjCClass('UISlider')
 
 ######################################################################
-# UIStackView.h
-UIStackView = ObjCClass('UIStackView')
-
-######################################################################
 # UISwitch.h
 UISwitch = ObjCClass('UISwitch')
 
@@ -338,10 +334,6 @@ class UIKeyboardType(Enum):
 ######################################################################
 # UIView.h
 UIView = ObjCClass('UIView')
-
-class UILayoutConstraintAxis(Enum):
-    Horizontal = 0
-    Vertical = 1
 
 class UIViewContentMode(Enum):
     ScaleToFill = 0

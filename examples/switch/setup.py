@@ -49,11 +49,5 @@ setup(
                 'toga-gtk',
             ]
         },
-        'ios': {
-            'app_requires': [
-                '../../src/core',
-                '../../src/iOS',
-            ]
-        },
     }
 )
