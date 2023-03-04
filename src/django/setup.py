@@ -28,7 +28,7 @@ setup(
     python_requires='>=3.5',
     include_package_data=True,
     install_requires=[
-        'django==1.10.6',
+        'django==2.2.28',
         'django-environ==0.4.1',
         'toga-core==%s' % version,
     ],
